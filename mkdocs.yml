@@ -1,0 +1,8 @@
+site_name: ChatToTwitch Documentation
+site_url: https://cct-docs.cibere.dev/
+nav:
+  - Home: index.md
+  - Premium: premium.md
+theme:
+  nav_style: dark
+  name: mkdocs
