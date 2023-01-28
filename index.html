@@ -77,6 +77,10 @@
             
             <li class="nav-item" data-level="1"><a href="#welcome" class="nav-link">Welcome</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#important-links" class="nav-link">Important Links</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#tutorial" class="nav-link">Tutorial</a>
               <ul class="nav flex-column">
               </ul>
@@ -93,6 +97,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#view-settings" class="nav-link">View Settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -101,7 +109,14 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="welcome">Welcome</h1>
-<p>Here we will go over the different parts of ChatToTwitch</p>
+<p>Here we will go over the different parts of ChatToTwitch.</p>
+<h2 id="important-links">Important Links</h2>
+<ul>
+<li><a href="https://www.cibere.dev/chattotwitch">Homepage</a></li>
+<li><a href="https://www.cibere.dev/chattotwitch/privacy-policy">Privacy Policy</a></li>
+<li><a href="https://www.cibere.dev/chattotwitch/terms-of-service">Terms Of Service</a></li>
+<li><a href="https://discord.gg/pP4mKKbRvk">Support Server</a></li>
+</ul>
 <h2 id="tutorial">Tutorial</h2>
 <p>Now, lets go over a tutorial. You might notice the <code>/login</code> command, but that will only redirect you to <a href="https://discord.com/oauth2/authorize?client_id=1005605461699088516&amp;redirect_uri=https%3A%2F%2Fwww.cibere.dev%2Fchattotwitch%2Flink&amp;response_type=code&amp;scope=identify%20connections">an oauth2 link</a>, so we can just go straight there.
 Once you authorize the bot, it should say successfully linked. And thats essentially it, you've linked your account. Now you can run <code>/crosschat start</code> and your crosschat should start. To stop it, run <code>/crosschat stop</code>. This uses the default settings, and I will go more in-depth with settings <a href="#crosschat-settings">in the settings section.</a></p>
@@ -133,11 +148,11 @@ Once you authorize the bot, it should say successfully linked. And thats essenti
 <p>Some settings support variables, and to sum up what that means is like this: lets say <code>{test}</code> is a variable. The bot would replace <code>{test}</code> with what the variable will be. Once example is <code>{username}</code>, which will be replaced with the users username. All of the bots variables are like so: <code>{variable_name}</code></p>
 <p><strong>Variable Index:</strong></p>
 <ul>
-<li>username - the chatters username</li>
-<li>display_name - the chatters display_name</li>
-<li>content - the message's content</li>
-<li>profile_picture - the url of the chatter's profile picture</li>
-<li>user_id - the chatters id</li>
+<li><code>username</code> - the chatters username</li>
+<li><code>display_name</code> - the chatters display_name</li>
+<li><code>content</code> - the message's content</li>
+<li><code>profile_picture</code> - the url of the chatter's profile picture</li>
+<li><code>user_id</code> - the chatters id</li>
 </ul>
 <h2 id="notifications">Notifications</h2>
 <p>When you run the <code>/settings</code> command, you get the ability to configure (whatever you can really) but the most is either your crosschat settings or server notifications. I will talk about the server notifications here. You can see <a href="#crosschat-settings">the crosschat settings section for info about that</a></p>
@@ -151,7 +166,9 @@ Once you authorize the bot, it should say successfully linked. And thats essenti
   When the bot recieves an update, it will send a message which contains the main highlights, along with a link that contains the full changelog.</p>
 </li>
 </ul>
-<p>When you change the channel, it will delete the old record so you can only have 1 per server.</p></div>
+<p>When you change the channel, it will delete the old record so you can only have 1 per server.</p>
+<h2 id="view-settings">View Settings</h2>
+<p>Want to view someone else's settings? Well you can run <code>/settings</code>, while passing a user to the <code>user</code> argument.</p></div>
             </div>
         </div>
 
@@ -232,5 +249,5 @@ Once you authorize the bot, it should say successfully linked. And thats essenti
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2023-01-28 21:17:48.729905+00:00
+Build Date UTC : 2023-01-28 21:27:33.384687+00:00
 -->
