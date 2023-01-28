@@ -1,6 +1,13 @@
 # Welcome
 
-Here we will go over the different parts of ChatToTwitch
+Here we will go over the different parts of ChatToTwitch.
+
+## Important Links
+
+- [Homepage](https://www.cibere.dev/chattotwitch)
+- [Privacy Policy](https://www.cibere.dev/chattotwitch/privacy-policy)
+- [Terms Of Service](https://www.cibere.dev/chattotwitch/terms-of-service)
+- [Support Server](https://discord.gg/pP4mKKbRvk)
 
 ## Tutorial
 
@@ -32,11 +39,11 @@ Some settings support variables, and to sum up what that means is like this: let
 
 **Variable Index:**
 
-- username - the chatters username
-- display_name - the chatters display_name
-- content - the message's content
-- profile_picture - the url of the chatter's profile picture
-- user_id - the chatters id
+- `username` - the chatters username
+- `display_name` - the chatters display_name
+- `content` - the message's content
+- `profile_picture` - the url of the chatter's profile picture
+- `user_id` - the chatters id
 
 ## Notifications
 
@@ -49,3 +56,7 @@ When you run the `/settings` command, you get the ability to configure (whatever
   When the bot recieves an update, it will send a message which contains the main highlights, along with a link that contains the full changelog.
 
 When you change the channel, it will delete the old record so you can only have 1 per server.
+
+## View Settings
+
+Want to view someone else's settings? Well you can run `/settings`, while passing a user to the `user` argument.
