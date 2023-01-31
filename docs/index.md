@@ -37,6 +37,11 @@ When you run the `/settings` command, you get the ability to configure (whatever
 
 Some settings support variables, and to sum up what that means is like this: lets say `{test}` is a variable. The bot would replace `{test}` with what the variable will be. Once example is `{username}`, which will be replaced with the users username. All of the bots variables are like so: `{variable_name}`
 
+**Fields that support variables:**
+
+- All fields in `embed format`
+- Webhook title
+
 **Variable Index:**
 
 - `username` - the chatters username
