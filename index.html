@@ -108,7 +108,18 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
+<style>
+.alert {
+  padding: 20px;
+  background-color: #2196F3;
+  color: white;
+}
+</style>
+
 <h1 id="welcome">Welcome</h1>
+<div class="alert"> 
+  <strong>Note!</strong> This documentation is for ChatToTwitch V3. <strong>The public version of ChatToTwitch is running V2, and NOT V3</strong>
+</div>
 <p>Here we will go over the different parts of ChatToTwitch.</p>
 <h2 id="important-links">Important Links</h2>
 <ul>
@@ -146,6 +157,11 @@ Once you authorize the bot, it should say successfully linked. And thats essenti
 </ul>
 <h2 id="variables">Variables</h2>
 <p>Some settings support variables, and to sum up what that means is like this: lets say <code>{test}</code> is a variable. The bot would replace <code>{test}</code> with what the variable will be. Once example is <code>{username}</code>, which will be replaced with the users username. All of the bots variables are like so: <code>{variable_name}</code></p>
+<p><strong>Fields that support variables:</strong></p>
+<ul>
+<li>All fields in <code>embed format</code></li>
+<li>Webhook title</li>
+</ul>
 <p><strong>Variable Index:</strong></p>
 <ul>
 <li><code>username</code> - the chatters username</li>
@@ -159,7 +175,7 @@ Once you authorize the bot, it should say successfully linked. And thats essenti
 <ul>
 <li>
 <p><strong>Restart Notifications:</strong>
-  After the bot restarts, it will send a message that's like <code>I have restarted, you will have to run /crosschat start again</code>. This is to serve as a reminder that it restarted, and that you have to re-start your crosschat.</p>
+  When a restart gets scheduled, the bot will notify you. It will also notify you once it's done starting, and when it just normally comes online.</p>
 </li>
 <li>
 <p><strong>Update Notifications:</strong>
@@ -249,5 +265,5 @@ Once you authorize the bot, it should say successfully linked. And thats essenti
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2023-01-28 21:27:33.384687+00:00
+Build Date UTC : 2023-01-31 04:20:13.225529+00:00
 -->
