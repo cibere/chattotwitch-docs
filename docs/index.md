@@ -76,3 +76,7 @@ Some settings support variables, and to sum up what that means is like this: let
 - `content` - the message's content
 - `profile_picture` - the url of the chatter's profile picture
 - `user_id` - the chatters id
+
+## Auto-Disconnect
+
+After an hour of no messages being sent through your crosschat, it will be automatically disconnected. Want this disabled? [premium users](/premium/) get this disabled, along with access to an autoreconnect feature.
