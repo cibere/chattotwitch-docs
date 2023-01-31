@@ -55,7 +55,7 @@ Some settings support variables, and to sum up what that means is like this: let
 When you run the `/settings` command, you get the ability to configure (whatever you can really) but the most is either your crosschat settings or server notifications. I will talk about the server notifications here. You can see [the crosschat settings section for info about that](#crosschat-settings)
 
 - **Restart Notifications:**
-  After the bot restarts, it will send a message that's like `I have restarted, you will have to run /crosschat start again`. This is to serve as a reminder that it restarted, and that you have to re-start your crosschat.
+  When a restart gets scheduled, the bot will notify you. It will also notify you once it's done starting, and when it just normally comes online.
 
 - **Update Notifications:**
   When the bot recieves an update, it will send a message which contains the main highlights, along with a link that contains the full changelog.
