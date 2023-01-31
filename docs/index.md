@@ -44,6 +44,22 @@ When you run the `/settings` command, you get the ability to configure (whatever
 - **Edit Webhook Format:**
   _This is a premium only feature._ Currently, this only lets you change the way the bot generates the webhook's username. [This setting supports variables](#variables)
 
+## View Settings
+
+Want to view someone else's settings? Well you can run `/settings`, while passing a user to the `user` argument.
+
+## Notifications
+
+When you run the `/settings` command, you get the ability to configure (whatever you can really) but the most is either your crosschat settings or server notifications. I will talk about the server notifications here. You can see [the crosschat settings section for info about that](#crosschat-settings)
+
+- **Restart Notifications:**
+  When a restart gets scheduled, the bot will notify you. It will also notify you once it's done starting, and when it just normally comes online.
+
+- **Update Notifications:**
+  When the bot recieves an update, it will send a message which contains the main highlights, along with a link that contains the full changelog.
+
+When you change the channel, it will delete the old record so you can only have 1 per server.
+
 ## Variables
 
 Some settings support variables, and to sum up what that means is like this: lets say `{test}` is a variable. The bot would replace `{test}` with what the variable will be. Once example is `{username}`, which will be replaced with the users username. All of the bots variables are like so: `{variable_name}`
@@ -60,19 +76,3 @@ Some settings support variables, and to sum up what that means is like this: let
 - `content` - the message's content
 - `profile_picture` - the url of the chatter's profile picture
 - `user_id` - the chatters id
-
-## Notifications
-
-When you run the `/settings` command, you get the ability to configure (whatever you can really) but the most is either your crosschat settings or server notifications. I will talk about the server notifications here. You can see [the crosschat settings section for info about that](#crosschat-settings)
-
-- **Restart Notifications:**
-  When a restart gets scheduled, the bot will notify you. It will also notify you once it's done starting, and when it just normally comes online.
-
-- **Update Notifications:**
-  When the bot recieves an update, it will send a message which contains the main highlights, along with a link that contains the full changelog.
-
-When you change the channel, it will delete the old record so you can only have 1 per server.
-
-## View Settings
-
-Want to view someone else's settings? Well you can run `/settings`, while passing a user to the `user` argument.
