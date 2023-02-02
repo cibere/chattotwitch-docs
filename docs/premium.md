@@ -21,3 +21,4 @@ We offer a premium subscription for those of you who want additional features. [
 - 3 simultaneous crosschats
 - Ability to edit embed format
 - Ability to edit webhook format
+- Access to blacklisting users
