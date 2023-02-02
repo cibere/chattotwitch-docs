@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://cct-docs.cibere.dev/premium/">
+        <link rel="canonical" href="https://cct-docs.cibere.dev/wiki/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Premium - ChatToTwitch Documentation</title>
+        <title>Wiki - ChatToTwitch Documentation</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -36,11 +36,11 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">Premium</a>
-                            </li>
                             <li class="navitem">
-                                <a href="../wiki/" class="nav-link">Wiki</a>
+                                <a href="../premium/" class="nav-link">Premium</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Wiki</a>
                             </li>
                             <li class="navitem">
                                 <a href="../change_log/" class="nav-link">Change-Log</a>
@@ -54,12 +54,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href=".." class="nav-link">
+                                <a rel="prev" href="../premium/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../wiki/" class="nav-link">
+                                <a rel="next" href="../change_log/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -81,9 +81,17 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#premium" class="nav-link">Premium</a>
+            <li class="nav-item" data-level="1"><a href="#wiki" class="nav-link">Wiki</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#perks" class="nav-link">Perks</a>
+            <li class="nav-item" data-level="2"><a href="#when-i-send-a-message-the-bot-reacts-with-a-red-x" class="nav-link">When I send a message, the bot reacts with a red X</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#is-the-bot-open-sourced" class="nav-link">Is the bot open sourced?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#messages-are-being-sent-to-discord-but-not-to-twitch" class="nav-link">Messages are being sent to discord, but not to twitch</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -94,29 +102,18 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<style>
-.alert {
-  padding: 20px;
-  background-color: #2196F3;
-  color: white;
-}
-</style>
-
-<h1 id="premium">Premium</h1>
-<p>We offer a premium subscription for those of you who want additional features. <a href="https://www.patreon.com/ChatToTwitch/membership">You can purchase premium on patreon</a></p>
-<div class="alert"> 
-  <strong>Note!</strong> If you get premium, you MUST join the discord server to get what you are paying for
-</div>
-
-<h2 id="perks">Perks</h2>
+<h1 id="wiki">Wiki</h1>
+<h2 id="when-i-send-a-message-the-bot-reacts-with-a-red-x">When I send a message, the bot reacts with a red X</h2>
+<p>The bot will do this for one of the following reasons:</p>
 <ul>
-<li>Auto-disconnect is disabled</li>
-<li>Autoreconnect</li>
-<li>3 simultaneous crosschats</li>
-<li>Ability to edit embed format</li>
-<li>Ability to edit webhook format</li>
-<li>Access to blacklisting users</li>
-</ul></div>
+<li>The crosschat has <a href="/#guest-only-mode">guest-mode disabled</a>, and you are a guest</li>
+<li>You are <a href="/#blacklist">blacklisted</a> from the crosschat</li>
+<li>The bot is unable to send your message to twitch</li>
+</ul>
+<h2 id="is-the-bot-open-sourced">Is the bot open sourced?</h2>
+<p>The actual bot? No. But the documentation can be viewed <a href="https://github.com/cibere/chattotwitch-docs">on github</a></p>
+<h2 id="messages-are-being-sent-to-discord-but-not-to-twitch">Messages are being sent to discord, but not to twitch</h2>
+<p>Is the bot sending a warning message? If so, they will tell you how to fix it. If not, make the twitch account <code>chattodiscord</code> a moderator on your stream. If that worked, then it was because you either had followers only mode, subscribers only mode, emote only mode, or some sort of verification the bot was unable to complete. If this did not work, you can <a href="https://discord.com/channels/986344051110473769/1019750029973540865">reach out for help</a> in our <a href="https://discord.gg/pP4mKKbRvk">discord server</a>.</p></div>
             </div>
         </div>
 
