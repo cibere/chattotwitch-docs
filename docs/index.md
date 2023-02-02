@@ -33,7 +33,7 @@ When you run the `/settings` command, you get the ability to configure (whatever
   When you send a message on twitch, the bot checks your configuration to see if it should send the message to discord through a webhook, or a normal message with an embed. This setting lets you change which the bot does. It's a simple toggle
 
 - **Allow Guests To Chat:**
-  This setting is kind of self explanitory. It is also a toggle. When you let them talk, anyone can talk. When you do not, anyone who has not linked their twitch and discord accounts _through chattotwitch_ will be unable to talk through the crosschat.
+  Allowing them to talk disables [Guest-Only mode](#guest-only-mode), while not letting them talk enables [Guest-Only mode](#guest-only-mode).
 
 ## Premium Settings
 
@@ -92,3 +92,7 @@ After an hour of no messages being sent through your crosschat, it will be autom
 
 Blacklisting is a [premium](/premium/) feature which allows you to block messages being sent through your crosschat. When you block a discord user, any messages sent from them will not be sent from twitch.
 When you block a twitch user, no messages from that user will be sent to discord.
+
+## Guest-only mode
+
+With this enabled, the only way for someone to talk in your crosschat is if they link their discord and twitch accounts through ChatToTwitch. We go over linking them in the [tutorial](#tutorial)
