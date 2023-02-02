@@ -17,7 +17,7 @@ Here we will go over the different parts of ChatToTwitch.
 
 - [Homepage](https://www.cibere.dev/chattotwitch)
 - [Privacy Policy](https://www.cibere.dev/chattotwitch/privacy-policy)
-- [Terms Of Service](https://www.cibere.dev/chattotwitch/terms-of-service)
+- [Terms of Service](https://www.cibere.dev/chattotwitch/terms-of-service)
 - [Support Server](https://discord.gg/pP4mKKbRvk)
 
 ## Tutorial
@@ -35,14 +35,21 @@ When you run the `/settings` command, you get the ability to configure (whatever
 - **Allow Guests To Chat:**
   This setting is kind of self explanitory. It is also a toggle. When you let them talk, anyone can talk. When you do not, anyone who has not linked their twitch and discord accounts _through chattotwitch_ will be unable to talk through the crosschat.
 
+## Premium Settings
+
+_These features require you to be a [premium member](/premium/)_
+
 - **Toggle Autoreconnect:**
-  _This is a premium only feature._ When the bot restarts, normally you have to manually run `/crosschat start` again. But with this, the bot will automatically reconnect. This is once again another simple toggle.
+  When the bot restarts, normally you have to manually run `/crosschat start` again. But with this, the bot will automatically reconnect. This is once again another simple toggle.
 
 - **Edit Embed Format:**
-  _This is a premium only feature._ When the bot sends an embed to discord, this setting lets you change how the embed is displayed. It gives you an interactive embed creater which lets you form it, then visualize it with test data. [This setting supports variables](#variables)
+  When the bot sends an embed to discord, this setting lets you change how the embed is displayed. It gives you an interactive embed creater which lets you form it, then visualize it with test data. [This setting supports variables](#variables)
 
 - **Edit Webhook Format:**
-  _This is a premium only feature._ Currently, this only lets you change the way the bot generates the webhook's username. [This setting supports variables](#variables)
+  Currently, this only lets you change the way the bot generates the webhook's username. [This setting supports variables](#variables)
+
+- **Edit Blacklist Settings:**
+  This lets you blacklist a discord/twitch user, or unblacklist them. You can read more about blacklisting [here](#blacklist)
 
 ## View Settings
 
@@ -80,3 +87,8 @@ Some settings support variables, and to sum up what that means is like this: let
 ## Auto-Disconnect
 
 After an hour of no messages being sent through your crosschat, it will be automatically disconnected. Want this disabled? [premium users](/premium/) get this disabled, along with access to an autoreconnect feature.
+
+## Blacklist
+
+Blacklisting is a [premium](/premium/) feature which allows you to block messages being sent through your crosschat. When you block a discord user, any messages sent from them will not be sent from twitch.
+When you block a twitch user, no messages from that user will be sent to discord.
