@@ -4,9 +4,9 @@
 
 The bot will do this for one of the following reasons:
 
-- The crosschat has guest-mode disabled, and you are a guest
+- The crosschat has [guest-mode disabled](/#guest-only-mode), and you are a guest
+- You are [blacklisted](/#blacklist) from the crosschat
 - The bot is unable to send your message to twitch
-- You are blacklisted from the crosschat
 
 ## Is the bot open sourced?
 
