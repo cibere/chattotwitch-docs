@@ -3,6 +3,8 @@ site_url: https://cct-docs.cibere.dev/
 nav:
   - Home: index.md
   - Premium: premium.md
+  - Wiki: wiki.md
+  - Change-Log: change_log.md
 theme:
   nav_style: dark
   name: mkdocs
