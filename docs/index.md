@@ -90,8 +90,12 @@ After an hour of no messages being sent through your crosschat, it will be autom
 
 ## Blacklist
 
-Blacklisting is a [premium](/premium/) feature which allows you to block messages being sent through your crosschat. When you block a discord user, any messages sent from them will not be sent from twitch.
+Blacklisting is a feature which allows you to block messages being sent through your crosschat. When you block a discord user, any messages sent from them will not be sent from twitch.
 When you block a twitch user, no messages from that user will be sent to discord.
+
+## Whitelist
+
+Whitelisting is a feature which allows you to choose who's messages get sent through your crosschat.
 
 ## Guest-only mode
 
