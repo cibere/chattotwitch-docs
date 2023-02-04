@@ -6,7 +6,7 @@ The bot will do this for one of the following reasons:
 
 - The crosschat has [guest-mode disabled](/#guest-only-mode), and you are a guest
 - You are [blacklisted](/#blacklist) from the crosschat
-- The bot is unable to send your message to twitch
+- The streamer has [whitelist-only mode](/#whitelist) enabled, and you are not [whitelisted](/#whitelist).
 
 ## Is the bot open sourced?
 
