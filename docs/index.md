@@ -35,6 +35,12 @@ When you run the `/settings` command, you get the ability to configure (whatever
 - **Allow Guests To Chat:**
   Allowing them to talk disables [Guest-Only mode](#guest-only-mode), while not letting them talk enables [Guest-Only mode](#guest-only-mode).
 
+- **Edit Blacklist Settings:**
+  This lets you blacklist a discord/twitch user, or unblacklist them. You can read more about blacklisting [here](#blacklist)
+
+- **Edit Whitelist Settings:**
+  This lets you Whitelist a discord/twitch user, or Whitelist them. Also lets you toggle if it's enabled or not. You can read more about whitelisting [here](#whitelist)
+
 ## Premium Settings
 
 _These features require you to be a [premium member](/premium/)_
@@ -47,9 +53,6 @@ _These features require you to be a [premium member](/premium/)_
 
 - **Edit Webhook Format:**
   Currently, this only lets you change the way the bot generates the webhook's username. [This setting supports variables](#variables)
-
-- **Edit Blacklist Settings:**
-  This lets you blacklist a discord/twitch user, or unblacklist them. You can read more about blacklisting [here](#blacklist)
 
 ## View Settings
 
