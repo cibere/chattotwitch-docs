@@ -54,9 +54,9 @@ _These features require you to be a [premium member](/premium/)_
 - **Edit Webhook Format:**
   Currently, this only lets you change the way the bot generates the webhook's username. [This setting supports variables](#variables)
 
-## View Settings
+## Profiles
 
-Want to view someone else's settings? Well you can run `/settings`, while passing a user to the `user` argument.
+Want to view someone else's profile? Well you can run `/profile` to do so. This will show you their twitch account, crosschat settings, blacklisted and whitelisted users, and their statistics.
 
 ## Notifications
 
