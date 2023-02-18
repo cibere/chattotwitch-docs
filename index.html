@@ -99,7 +99,7 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#view-settings" class="nav-link">View Settings</a>
+            <li class="nav-item" data-level="2"><a href="#profiles" class="nav-link">Profiles</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -176,6 +176,10 @@ Once you authorize the bot, it should say successfully linked. And thats essenti
 <p><strong>Edit Whitelist Settings:</strong>
   This lets you Whitelist a discord/twitch user, or Whitelist them. Also lets you toggle if it's enabled or not. You can read more about whitelisting <a href="#whitelist">here</a></p>
 </li>
+<li>
+<p><strong>Edit Directional Settings:</strong>
+  Directional Settings will let you choose which way messages are sent. By defualt it is set to both directions for crosschat, but you can change that.</p>
+</li>
 </ul>
 <h2 id="premium-settings">Premium Settings</h2>
 <p><em>These features require you to be a <a href="/premium/">premium member</a></em></p>
@@ -193,8 +197,8 @@ Once you authorize the bot, it should say successfully linked. And thats essenti
   Currently, this only lets you change the way the bot generates the webhook's username. <a href="#variables">This setting supports variables</a></p>
 </li>
 </ul>
-<h2 id="view-settings">View Settings</h2>
-<p>Want to view someone else's settings? Well you can run <code>/settings</code>, while passing a user to the <code>user</code> argument.</p>
+<h2 id="profiles">Profiles</h2>
+<p>Want to view someone else's profile? Well you can run <code>/profile</code> to do so. This will show you their twitch account, crosschat settings, blacklisted and whitelisted users, and their statistics.</p>
 <h2 id="notifications">Notifications</h2>
 <p>When you run the <code>/settings</code> command, you get the ability to configure (whatever you can really) but the most is either your crosschat settings or server notifications. I will talk about the server notifications here. You can see <a href="#crosschat-settings">the crosschat settings section for info about that</a></p>
 <ul>
@@ -229,7 +233,7 @@ Once you authorize the bot, it should say successfully linked. And thats essenti
 <p>Blacklisting is a feature which allows you to block messages being sent through your crosschat. When you block a discord user, any messages sent from them will not be sent from twitch.
 When you block a twitch user, no messages from that user will be sent to discord.</p>
 <h2 id="whitelist">Whitelist</h2>
-<p>Whitelisting is a feature which allows you to choose who's messages get sent through your crosschat.</p>
+<p>Whitelisting is a feature which allows you to choose who's messages get sent through your crosschat. You can choose to whitelist discord or twitch users, and toggle if discord whitelist (or twitch) is enabled/disabled independently.</p>
 <h2 id="guest-only-mode">Guest-only mode</h2>
 <p>With this enabled, the only way for someone to talk in your crosschat is if they link their discord and twitch accounts through ChatToTwitch. We go over linking them in the <a href="#tutorial">tutorial</a></p></div>
             </div>
@@ -312,5 +316,5 @@ When you block a twitch user, no messages from that user will be sent to discord
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2023-02-11 04:49:58.069694+00:00
+Build Date UTC : 2023-02-18 01:55:03.853198+00:00
 -->
