@@ -41,6 +41,9 @@ When you run the `/settings` command, you get the ability to configure (whatever
 - **Edit Whitelist Settings:**
   This lets you Whitelist a discord/twitch user, or Whitelist them. Also lets you toggle if it's enabled or not. You can read more about whitelisting [here](#whitelist)
 
+- **Edit Directional Settings:**
+  Directional Settings will let you choose which way messages are sent. By defualt it is set to both directions for crosschat, but you can change that.
+
 ## Premium Settings
 
 _These features require you to be a [premium member](/premium/)_
