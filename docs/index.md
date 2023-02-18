@@ -101,7 +101,7 @@ When you block a twitch user, no messages from that user will be sent to discord
 
 ## Whitelist
 
-Whitelisting is a feature which allows you to choose who's messages get sent through your crosschat.
+Whitelisting is a feature which allows you to choose who's messages get sent through your crosschat. You can choose to whitelist discord or twitch users, and toggle if discord whitelist (or twitch) is enabled/disabled independently.
 
 ## Guest-only mode
 
