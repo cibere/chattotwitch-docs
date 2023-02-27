@@ -83,6 +83,10 @@
             
             <li class="nav-item" data-level="1"><a href="#change-log" class="nav-link">Change log</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#v3" class="nav-link">V3</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -92,7 +96,41 @@
 
 <h1 id="change-log">Change log</h1>
 <p>This document will contain the changes between ChatToTwitch versions. For a github commit history, you can see the <a href="https://discord.com/channels/986344051110473769/1040403464691392573">ChatToTwitch github thread</a> on our <a href="https://discord.gg/pP4mKKbRvk">discord server</a></p>
-<p><em>Coming soon...</em></p></div>
+<h2 id="v3">V3</h2>
+<ul>
+<li>New Documentation (Can be found <a href="https://ctt-docs.cibere.dev">here</a>)</li>
+<li>Privacy Policy has been updated. It can be found <a href="https://www.cibere.dev/chattotwitch/privacy-policy">here</a></li>
+<li>FAQ/Wiki has been updated. (It can be found <a href="https://ctt-docs.cibere.dev/wiki/">here</a>)</li>
+<li>A premium subscription has been added. It's perks can be found <a href="https://ctt-docs.cibere.dev/premium/">here</a></li>
+<li>Autoreconnect has been added, though its a <a href="https://ctt-docs.cibere.dev/premium">premium</a> perk.</li>
+<li>Customizing embeds, though its a <a href="https://ctt-docs.cibere.dev/premium">premium</a> perk.</li>
+<li>A better login system, making it more seemless to login.</li>
+<li>Directional settings, which lets you choose if messages go both directions, only to twitch, or only to discord</li>
+<li>Whitelisting system. This will let you whitelist twitch/discord users, and independently toggle if the discord/twitch whitelist(s) should be enabled/disabled.</li>
+<li>More extensive blacklisting system. You can now blacklist twitch users</li>
+<li>Guest-only mode. With this enabled, discord users will have to login through ChatToTwitch to be able to use the crosschat. This can be found <a href="https://ctt-docs.cibere.dev/#guest-only-mode">here</a></li>
+<li>Viewing profiles (This allows you to see their settings, twitch username, and stats. This can be found <a href="https://ctt-docs.cibere.dev/#profiles">here</a>)</li>
+<li>Auto-Disconnect. You probably think I added this so more people would buy premium, and although that is one perk of this, it's not the reason. This is here so it's more accurate to figure out how many crosschats are currently active, which will help me do restarts during downtime hours, etc.</li>
+<li>Better message parsing (Ex: when sending a message to discord, emojis, commands, roles, member, and channel mentions will all be stripped down to make it more readable.)</li>
+<li>Reply support (Messages will now display the content and author of the message they are replying to)</li>
+<li>Statistics. Using the <code>/about</code> command will let you see global statistics, while using <code>/profile</code> will let you see user-specific statistics.</li>
+<li>To maintain a minimilistic view, the <code>ping</code> command has been switched to a prefix command. The prefix is the bots mention, so it would be invoked as such: <code>@ChatToTwitch ping</code></li>
+<li><code>/crosschat start</code> will now give you warnings if you have settings enabled that could detereriate the preformance of the bot.</li>
+<li>Premium users can have up to 3 crosschats, and with this <code>/crosschat stop</code> will let you specify which channel you want to terminate the crosschat from</li>
+<li><code>/accounts</code> has been removed, as you can now only have one linked account</li>
+<li><code>/config</code> and <code>/notifications</code> have been combined into <code>/settings</code>, which only lets you edit what you have permission to access.</li>
+<li><code>/crosschat bans/unban/ban</code> have been removed, since this has been replaced by blacklisting and can be edited in the <code>/settings</code> command</li>
+<li><code>/privacy</code> and <code>/support</code> have been removed, since a link to them has been added to <code>/about</code></li>
+<li><code>/vote</code> and <code>/videos</code> have been removed due to me feeling like they are unneccessary commands</li>
+<li><code>/tutorial</code> has been depreciated, and just points you to the <a href="https://ctt-docs.cibere.dev/#tutorial">tutorial in the docs</a></li>
+<li><code>/about</code> now has links to the docs, homepage, privacy policy, and support server</li>
+<li>the <code>invite my devs for assistant</code> has been removed due to people spamming it</li>
+<li>The Connection error with twitch that causes frequent restarts (is hoped to be fixed)</li>
+<li>The multiple responding when errors occur has been fixed</li>
+<li>Better error handling has been added, with proper permissions being properly marked and the error handler telling you what permission(s) the bot is missing.</li>
+<li>Dynamic <a href="https://ctt-docs.cibere.dev/#variables">variables</a> have been added</li>
+</ul>
+<p><em>Most of the changes were on the backend since the V2 code was very horrible</em></p></div>
             </div>
         </div>
 
