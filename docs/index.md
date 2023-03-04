@@ -1,16 +1,5 @@
-<style>
-.alert {
-  padding: 20px;
-  background-color: #2196F3;
-  color: white;
-}
-</style>
-
 # Welcome
 
-<div class="alert"> 
-  <strong>Note!</strong> This documentation is for ChatToTwitch V3. <strong>The public version of ChatToTwitch is running V2, and NOT V3</strong>
-</div>
 Here we will go over the different parts of ChatToTwitch.
 
 ## Important Links
