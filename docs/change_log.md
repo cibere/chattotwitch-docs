@@ -21,7 +21,7 @@ This document will contain the changes between ChatToTwitch versions. For a gith
 - Reply support (Messages will now display the content and author of the message they are replying to)
 - Statistics. Using the `/about` command will let you see global statistics, while using `/profile` will let you see user-specific statistics.
 - To maintain a minimilistic view, the `ping` command has been switched to a prefix command. The prefix is the bots mention, so it would be invoked as such: `@ChatToTwitch ping`
-- `/crosschat start` will now give you warnings if you have settings enabled that could detereriate the preformance of the bot.
+- `/crosschat start` will now give you warnings if you have settings enabled that could deteriorate the preformance of the bot.
 - Premium users can have up to 3 crosschats, and with this `/crosschat stop` will let you specify which channel you want to terminate the crosschat from
 - `/accounts` has been removed, as you can now only have one linked account
 - `/config` and `/notifications` have been combined into `/settings`, which only lets you edit what you have permission to access.
