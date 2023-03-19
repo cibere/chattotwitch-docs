@@ -83,7 +83,7 @@
             
             <li class="nav-item" data-level="1"><a href="#wiki" class="nav-link">Wiki</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#when-i-send-a-message-the-bot-reacts-with-a-red-x" class="nav-link">When I send a message, the bot reacts with a red X</a>
+            <li class="nav-item" data-level="2"><a href="#why-is-it-that-when-i-send-a-message-the-bot-reacts-with-a-red-x" class="nav-link">Why is it that when I send a message, the bot reacts with a red X?</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -91,7 +91,11 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#messages-are-being-sent-to-discord-but-not-to-twitch" class="nav-link">Messages are being sent to discord, but not to twitch</a>
+            <li class="nav-item" data-level="2"><a href="#why-are-messages-being-sent-to-discord-but-not-to-twitch" class="nav-link">Why are messages being sent to discord, but not to twitch?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#why-is-the-bot-is-replacing-discord-with-d-in-a-webhooks-username" class="nav-link">Why is the bot is replacing discord with d***** in a webhooks username?</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -103,7 +107,7 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="wiki">Wiki</h1>
-<h2 id="when-i-send-a-message-the-bot-reacts-with-a-red-x">When I send a message, the bot reacts with a red X</h2>
+<h2 id="why-is-it-that-when-i-send-a-message-the-bot-reacts-with-a-red-x">Why is it that when I send a message, the bot reacts with a red X?</h2>
 <p>The bot will do this for one of the following reasons:</p>
 <ul>
 <li>The crosschat has <a href="/#guest-only-mode">guest-mode disabled</a>, and you are a guest</li>
@@ -112,8 +116,10 @@
 </ul>
 <h2 id="is-the-bot-open-sourced">Is the bot open sourced?</h2>
 <p>The actual bot? No. But the documentation can be viewed <a href="https://github.com/cibere/chattotwitch-docs">on github</a></p>
-<h2 id="messages-are-being-sent-to-discord-but-not-to-twitch">Messages are being sent to discord, but not to twitch</h2>
-<p>Is the bot sending a warning message? If so, they will tell you how to fix it. If not, make the twitch account <code>chattodiscord</code> a moderator on your stream. If that worked, then it was because you either had followers only mode, subscribers only mode, emote only mode, or some sort of verification the bot was unable to complete. If this did not work, you can <a href="https://discord.com/channels/986344051110473769/1019750029973540865">reach out for help</a> in our <a href="https://discord.gg/pP4mKKbRvk">discord server</a>.</p></div>
+<h2 id="why-are-messages-being-sent-to-discord-but-not-to-twitch">Why are messages being sent to discord, but not to twitch?</h2>
+<p>Is the bot sending a warning message? If so, they will tell you how to fix it. If not, make the twitch account <code>chattodiscord</code> a moderator on your stream. If that worked, then it was because you either had followers only mode, subscribers only mode, emote only mode, or some sort of verification the bot was unable to complete. If this did not work, you can <a href="https://discord.com/channels/986344051110473769/1019750029973540865">reach out for help</a> in our <a href="https://discord.gg/pP4mKKbRvk">discord server</a>.</p>
+<h2 id="why-is-the-bot-is-replacing-discord-with-d-in-a-webhooks-username">Why is the bot is replacing <code>discord</code> with <code>d*****</code> in a webhooks username?</h2>
+<p>Because of how discord webhooks work, they can not contain the word <code>discord</code>. (I assume for safety reasons) So the bot censors <code>discord</code> out of the webhook's username so it actually gets sent.</p></div>
             </div>
         </div>
 
