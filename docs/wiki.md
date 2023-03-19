@@ -15,3 +15,7 @@ The actual bot? No. But the documentation can be viewed [on github](https://gith
 ## Messages are being sent to discord, but not to twitch
 
 Is the bot sending a warning message? If so, they will tell you how to fix it. If not, make the twitch account `chattodiscord` a moderator on your stream. If that worked, then it was because you either had followers only mode, subscribers only mode, emote only mode, or some sort of verification the bot was unable to complete. If this did not work, you can [reach out for help](https://discord.com/channels/986344051110473769/1019750029973540865) in our [discord server](https://discord.gg/pP4mKKbRvk).
+
+## Why is the bot is replacing `discord` with `d*****` in a webhooks username?
+
+Because of how discord webhooks work, they can not contain the word `discord`. (I assume for safety reasons) So the bot censors `discord` out of the webhook's username so it actually gets sent.
