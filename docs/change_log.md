@@ -2,6 +2,18 @@
 
 This document will contain the changes between ChatToTwitch versions. For a github commit history, you can see the [ChatToTwitch github thread](https://discord.com/channels/986344051110473769/1040403464691392573) on our [discord server](https://discord.gg/pP4mKKbRvk)
 
+_Change Log will not include back-end changes, since that would be too long_
+
+## V3.1
+
+This is so far, as 3.1 might include more bug fixes.
+
+- When the webserver goes offline, you can login via the 'manual' mode in `/login`. Aka the way you logged in with V2
+- When a message is auto-deleted on discord, dond't send it to twitch
+- Crosschat is now supported in threads
+- if the bot doesn't have proper permissions, it will react with the default check emoji
+- fix blacklist and whitelist breaking when someone edits their blacklist or whitelist
+
 ## V3
 
 - New Documentation (Can be found [here](https://ctt-docs.cibere.dev))
