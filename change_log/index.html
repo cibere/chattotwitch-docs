@@ -83,6 +83,10 @@
             
             <li class="nav-item" data-level="1"><a href="#change-log" class="nav-link">Change log</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#v31" class="nav-link">V3.1</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#v3" class="nav-link">V3</a>
               <ul class="nav flex-column">
               </ul>
@@ -96,6 +100,16 @@
 
 <h1 id="change-log">Change log</h1>
 <p>This document will contain the changes between ChatToTwitch versions. For a github commit history, you can see the <a href="https://discord.com/channels/986344051110473769/1040403464691392573">ChatToTwitch github thread</a> on our <a href="https://discord.gg/pP4mKKbRvk">discord server</a></p>
+<p><em>Change Log will not include back-end changes, since that would be too long</em></p>
+<h2 id="v31">V3.1</h2>
+<p>This is so far, as 3.1 might include more bug fixes.</p>
+<ul>
+<li>When the webserver goes offline, you can login via the 'manual' mode in <code>/login</code>. Aka the way you logged in with V2</li>
+<li>When a message is auto-deleted on discord, dond't send it to twitch</li>
+<li>Crosschat is now supported in threads</li>
+<li>if the bot doesn't have proper permissions, it will react with the default check emoji</li>
+<li>fix blacklist and whitelist breaking when someone edits their blacklist or whitelist</li>
+</ul>
 <h2 id="v3">V3</h2>
 <ul>
 <li>New Documentation (Can be found <a href="https://ctt-docs.cibere.dev">here</a>)</li>
