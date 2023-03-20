@@ -13,6 +13,7 @@ This is so far, as 3.1 might include more bug fixes.
 - Crosschat is now supported in threads
 - if the bot doesn't have proper permissions, it will react with the default check emoji
 - fix blacklist and whitelist breaking when someone edits their blacklist or whitelist
+- Notifications are now supported in public threads and news channels.
 
 ## V3
 
