@@ -127,6 +127,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#webhook-name-replacements" class="nav-link">Webhook Name Replacements</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -224,7 +228,59 @@ When you block a twitch user, no messages from that user will be sent to discord
 <h2 id="whitelist">Whitelist</h2>
 <p>Whitelisting is a feature which allows you to choose who's messages get sent through your crosschat. You can choose to whitelist discord or twitch users, and toggle if discord whitelist (or twitch) is enabled/disabled independently.</p>
 <h2 id="guest-only-mode">Guest-only mode</h2>
-<p>With this enabled, the only way for someone to talk in your crosschat is if they link their discord and twitch accounts through ChatToTwitch. We go over linking them in the <a href="#tutorial">tutorial</a></p></div>
+<p>With this enabled, the only way for someone to talk in your crosschat is if they link their discord and twitch accounts through ChatToTwitch. We go over linking them in the <a href="#tutorial">tutorial</a></p>
+<h2 id="webhook-name-replacements">Webhook Name Replacements</h2>
+<p>Due to discord restrictions, the name of webhooks can not contain or be certain texts.</p>
+<p>Texts that get converted from your username:</p>
+<table>
+<thead>
+<tr>
+<th>Normal</th>
+<th>After Conversion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>discord</td>
+<td>d*****</td>
+</tr>
+<tr>
+<td>@</td>
+<td>(a)</td>
+</tr>
+<tr>
+<td>#</td>
+<td>%</td>
+</tr>
+<tr>
+<td>:</td>
+<td>;</td>
+</tr>
+<tr>
+<td>```</td>
+<td>'''</td>
+</tr>
+</tbody>
+</table>
+<p>Full username changes:</p>
+<table>
+<thead>
+<tr>
+<th>Username</th>
+<th>After Conversion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>here</td>
+<td>h***</td>
+</tr>
+<tr>
+<td>everyone</td>
+<td>e*******</td>
+</tr>
+</tbody>
+</table></div>
             </div>
         </div>
 
@@ -305,5 +361,5 @@ When you block a twitch user, no messages from that user will be sent to discord
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2023-03-20 23:42:02.618924+00:00
+Build Date UTC : 2023-04-01 03:21:21.813537+00:00
 -->
