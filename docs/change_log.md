@@ -14,6 +14,7 @@ This is so far, as 3.1 might include more bug fixes.
 - if the bot doesn't have proper permissions, it will react with the default check emoji
 - fix blacklist and whitelist breaking when someone edits their blacklist or whitelist
 - Notifications are now supported in public threads and news channels.
+- Webhook Usernames now have certain words/texts cencensored due to discord restrictions. Read more about this [here](/#webhook-name-replacements)
 
 ## V3
 
