@@ -95,3 +95,24 @@ Whitelisting is a feature which allows you to choose who's messages get sent thr
 ## Guest-only mode
 
 With this enabled, the only way for someone to talk in your crosschat is if they link their discord and twitch accounts through ChatToTwitch. We go over linking them in the [tutorial](#tutorial)
+
+## Webhook Name Replacements
+
+Due to discord restrictions, the name of webhooks can not contain or be certain texts.
+
+Texts that get converted from your username:
+
+| Normal  | After Conversion |
+| ------- | ---------------- |
+| discord | d\*\*\*\*\*      |
+| @       | (a)              |
+| #       | %                |
+| :       | ;                |
+| \`\`\`  | '''              |
+
+Full username changes:
+
+| Username | After Conversion |
+| -------- | ---------------- |
+| here     | h\*\*\*          |
+| everyone | e\*\*\*\*\*\*\*  |
