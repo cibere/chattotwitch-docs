@@ -18,4 +18,4 @@ Is the bot sending a warning message? If so, they will tell you how to fix it. I
 
 ## Why is the bot is replacing `discord` with `d*****` in a webhooks username?
 
-Because of how discord webhooks work, they can not contain the word `discord`. (I assume for safety reasons) So the bot censors `discord` out of the webhook's username so it actually gets sent.
+This has been moved to the [Webhook Name Replacements section](/#webhook-name-replacements)
