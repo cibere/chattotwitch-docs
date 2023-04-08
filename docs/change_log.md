@@ -16,6 +16,8 @@ This is so far, as 3.1 might include more bug fixes.
 - Notifications are now supported in public threads and news channels.
 - Webhook Usernames now have certain words/texts cencensored due to discord restrictions. Read more about this [here](/#webhook-name-replacements)
 - Add slowmode warning when crosschat starts
+- Move use_webhooks/use_embeds to DisplayType/DisplaySettings
+- Add raw display type
 
 ## V3
 
