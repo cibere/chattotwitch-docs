@@ -131,6 +131,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#display-settings" class="nav-link">Display Settings</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -154,8 +158,8 @@ Once you authorize the bot, it should say successfully linked. And thats essenti
 <p>When you run the <code>/settings</code> command, you get the ability to configure (whatever you can really) but the most is either your crosschat settings or server notifications. I will talk about the crosschat settings here. You can see <a href="#notifications">the notification section for info about that</a></p>
 <ul>
 <li>
-<p><strong>Switching between embeds/webhooks:</strong>
-  When you send a message on twitch, the bot checks your configuration to see if it should send the message to discord through a webhook, or a normal message with an embed. This setting lets you change which the bot does. It's a simple toggle</p>
+<p><strong>Edit Display Settings:</strong>
+  When sending a message to discord, your display setting will determine how its done. Read more about this <a href="#display-settings">here</a></p>
 </li>
 <li>
 <p><strong>Allow Guests To Chat:</strong>
@@ -280,7 +284,23 @@ When you block a twitch user, no messages from that user will be sent to discord
 <td>e*******</td>
 </tr>
 </tbody>
-</table></div>
+</table>
+<h2 id="display-settings">Display Settings</h2>
+<p>When sending a message to discord, your display setting will determine how its done. Here are the display settings:</p>
+<ul>
+<li>
+<p><strong>Webhooks:</strong>
+  ChatToTwitch will send the message to discord via a webhook. Though due to discord restrictions, webhook names will be censored. Read more about that <a href="#webhook-name-replacements">here</a>. You can also customize the webhooks name, though that setting is a <a href="/premium">premium feature</a></p>
+</li>
+<li>
+<p><strong>Embeds:</strong>
+  ChatToTwitch will send the message to discord via a normal message, with an embed attached. This embed is customizeable, but it is a <a href="/premium">premium feature</a>. By default it shows the chatter's avatar, name, and message's content.</p>
+</li>
+<li>
+<p><strong>Raw:</strong>
+  ChatToTwitch will send the message to discord via a normal message. Ex: <code>chatter_name: message_content</code></p>
+</li>
+</ul></div>
             </div>
         </div>
 
@@ -361,5 +381,5 @@ When you block a twitch user, no messages from that user will be sent to discord
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2023-04-07 23:39:12.709206+00:00
+Build Date UTC : 2023-04-08 00:29:21.909851+00:00
 -->
