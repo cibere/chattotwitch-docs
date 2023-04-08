@@ -18,8 +18,8 @@ Once you authorize the bot, it should say successfully linked. And thats essenti
 
 When you run the `/settings` command, you get the ability to configure (whatever you can really) but the most is either your crosschat settings or server notifications. I will talk about the crosschat settings here. You can see [the notification section for info about that](#notifications)
 
-- **Switching between embeds/webhooks:**
-  When you send a message on twitch, the bot checks your configuration to see if it should send the message to discord through a webhook, or a normal message with an embed. This setting lets you change which the bot does. It's a simple toggle
+- **Edit Display Settings:**
+  When sending a message to discord, your display setting will determine how its done. Read more about this [here](#display-settings)
 
 - **Allow Guests To Chat:**
   Allowing them to talk disables [Guest-Only mode](#guest-only-mode), while not letting them talk enables [Guest-Only mode](#guest-only-mode).
@@ -116,3 +116,16 @@ Full username changes:
 | -------- | ---------------- |
 | here     | h\*\*\*          |
 | everyone | e\*\*\*\*\*\*\*  |
+
+## Display Settings
+
+When sending a message to discord, your display setting will determine how its done. Here are the display settings:
+
+- **Webhooks:**
+  ChatToTwitch will send the message to discord via a webhook. Though due to discord restrictions, webhook names will be censored. Read more about that [here](#webhook-name-replacements). You can also customize the webhooks name, though that setting is a [premium feature](/premium)
+
+- **Embeds:**
+  ChatToTwitch will send the message to discord via a normal message, with an embed attached. This embed is customizeable, but it is a [premium feature](/premium). By default it shows the chatter's avatar, name, and message's content.
+
+- **Raw:**
+  ChatToTwitch will send the message to discord via a normal message. Ex: `chatter_name: message_content`
