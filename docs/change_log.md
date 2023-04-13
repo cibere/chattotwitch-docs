@@ -18,6 +18,7 @@ This is so far, as 3.1 might include more bug fixes.
 - Add slowmode warning when crosschat starts
 - Move use_webhooks/use_embeds to DisplayType/DisplaySettings
 - Add raw display type
+- Escape markdowns when sending messages to discord
 
 ## V3
 
